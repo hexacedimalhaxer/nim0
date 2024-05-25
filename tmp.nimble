@@ -9,8 +9,7 @@ installExt    = @["nim"]
 bin           = @["tmp"]
 
 
-# Dependencies
-task test, "Run tests":
-  exec "/bin/sh"
+task tmp, "Run tests":
+  exec "src/tmp"
 
 requires "nim >= 1.2.6"
